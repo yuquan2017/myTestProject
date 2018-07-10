@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-ch">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		canvas{
+			border:1px solid #00c;
+		}
+	</style>
+</head>
+<body>
+	<canvas width="500" height="500"></canvas>
+	<script type="text/javascript">
+		var oCanvas = document.getElementsByTagName('canvas')[0];
+		var tex = oCanvas.getContext('2d');
+		tex.moveTo(100,100);
+		tex.lineTo(200,100)
+		tex.stroke();
+	</script>
+</body>
+</html>
